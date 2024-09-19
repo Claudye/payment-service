@@ -1,0 +1,95 @@
+[
+    {
+        "id": 1,
+        "photo": "https://www.heroesmag.org/wp-content/uploads/2023/09/xtime-cov.jpg",
+        "name": "X-TIME",
+        "profession": "Artiste, Chanteur",
+        "socials": [
+            {
+                "name": "facebook",
+                "icon": "facebook",
+                "display_name": "Facebook",
+                "url": "https://facebook.com",
+                "color": "#1877F2"
+            },
+            {
+                "name": "youtube",
+                "icon": "youtube",
+                "display_name": "YouTube",
+                "url": "https://youtube.com",
+                "color": "#FF0000"
+            },
+            {
+                "name": "instagram",
+                "icon": "instagram",
+                "display_name": "Instagram",
+                "url": "https://instagram.com",
+                "color": "#8134AF"
+            }
+        ],
+        "bio": "Quoi qu’il en soit, on est encore bien loin du bout du tunnel. Il faudra du temps, beaucoup de temps pour qu’enfin le Bénin ait une identité musicale fixe et stable",
+        "username": "xtime"
+    },
+    {
+        "id": 2,
+        "photo": "https://bootdey.com/img/Content/avatar/avatar7.png",
+        "name": "Richard Flash",
+        "profession": "Artiste, Chanteur",
+        "username": "rflash",
+        "socials": [
+            {
+                "name": "facebook",
+                "icon": "facebook",
+                "display_name": "Facebook",
+                "url": "https://facebook.com",
+                "color": "#1877F2"
+            },
+            {
+                "name": "youtube",
+                "icon": "youtube",
+                "display_name": "YouTube",
+                "url": "https://youtube.com",
+                "color": "#FF0000"
+            },
+            {
+                "name": "instagram",
+                "icon": "instagram",
+                "display_name": "Instagram",
+                "url": "https://instagram.com",
+                "color": "#8134AF"
+            }
+        ],
+        "bio": "Une brève description de l'artisan."
+    },
+    {
+        "id": 3,
+        "photo": "https://bootdey.com/img/Content/avatar/avatar8.png",
+        "name": "Stéphanie Montcho",
+        "profession": "Promotrice des artistes, Journaliste",
+        "username": "smontcho",
+        "socials": [
+            {
+                "name": "facebook",
+                "icon": "facebook",
+                "display_name": "Facebook",
+                "url": "https://facebook.com",
+                "color": "#1877F2"
+            },
+            {
+                "name": "youtube",
+                "icon": "youtube",
+                "display_name": "YouTube",
+                "url": "https://youtube.com",
+                "color": "#FF0000"
+            },
+            {
+                "name": "instagram",
+                "icon": "instagram",
+                "display_name": "Instagram",
+                "url": "https://instagram.com",
+                "color": "#8134AF"
+            }
+        ],
+        "bio": "Une brève description de l'artisan."
+    }
+]
