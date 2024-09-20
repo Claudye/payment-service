@@ -9,6 +9,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "claudye/laravel-hooks": "^1.0",
         "cviebrock/eloquent-sluggable": "^11.0",
         "fedapay/fedapay-php": "^0.4.2",
         "hisorange/browser-detect": "^5.0",

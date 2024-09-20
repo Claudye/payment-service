@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\{Transactions, Wallets, Platforms};
+use App\Http\Controllers\{CurrencyController, Transactions, Wallets, Platforms};
 
 Route::prefix('transactions')->group(function () {
     Route::get(
@@ -33,4 +33,7 @@ Route::prefix('wallets')->group(function () {
 
 Route::prefix("platforms")->group(function () {
     Route::post('/add-fund', [Platforms\WalletController::class, "addFund"]);
+});
+Route::prefix("currencies")->group(function () {
+    Route::get('', [CurrencyController::class, 'index']);
 });

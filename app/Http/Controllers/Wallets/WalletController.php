@@ -3,10 +3,12 @@
 namespace App\Http\Controllers\Wallets;
 
 use App\Helpers\Resp;
+use App\Traits\HasHooks;
 use Illuminate\Http\Request;
 use App\Models\PlatformWallet;
 use Illuminate\Validation\Rule;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Route;
 use App\Http\Resources\WalletResource;
 use App\Services\Wallets\WalletService;
 use App\Services\Wallets\WalletHistoryService;
@@ -14,8 +16,10 @@ use Illuminate\Validation\ValidationException;
 
 class WalletController extends Controller
 {
+    use HasHooks;
     public function store(Request $request, WalletService $walletService)
     {
+
         $request->validate([
             "owner_uuid" => "required|uuid",
             "currency_id" => ["required", Rule::exists('currencies', "id")]
